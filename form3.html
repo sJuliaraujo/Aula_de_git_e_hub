@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Times Paulistas</h1> 
+    
+    <label for="time">Selecione seu time: </label>
+   <select name="times" id="times">
+
+    <option value="desabilitado" selected disabled>Opções</option>
+    <option value="saopaulo">São Paulo</option>
+    <option value="santos">Santos</option>
+    <option value="palmeiras">Palmeiras</option>
+    <option value="corinthians">Corinthians</option>
+    
+</select>
+<br><br>
+
+<label for="cCid">Sua cidade:</label>
+<input type="text" name="cCid" id="cCid" list="cidades" autocomplete="on" placeholder="Sua cidade">
+<datalist id="cidades">
+    <option value="São Paulo"></option>
+    <option value="Juquitiba">/option>
+    <option value="Itapetininga"></option>
+    <option value="Valinhos"></option>
+    <option value="Paraty"></option>
+    <option value="Xique-xique"></option>
+</datalist>
+<br><br> 
+<br>
+<label for="textArea">Sugestões:</label>
+<br>
+<textarea name="" id="textArea" cols="50" rows="5" placeholder="Escreva aqui" maxlength="365"></textarea>
+    
+</body>
+</html>
